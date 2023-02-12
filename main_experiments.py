@@ -115,7 +115,7 @@ if __name__ == '__main__':
         while True:
             answer = input(
                 'Do you want to perform the baseline experiment with default hyperparameters? '
-                '[Y/N]. ')
+                '[Y/N] ')
             if answer.lower() == "y" or answer.lower() == "yes":
                 flag_baseline_experiment = True
                 break
